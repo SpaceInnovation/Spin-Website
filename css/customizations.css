@@ -11,3 +11,46 @@
 }
 
 .dropdown:hover .dropdown-content {display: block;}
+
+.project-desc {
+    min-height: 264px;
+}
+
+.s-back-to-top.-zoom-out,
+.s-back-to-top.-is-visible
+{
+    width: 48px;
+}
+
+footer .s-footer__logo:before {
+    position: absolute;
+    top: 0;
+    left: 0.9375rem;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    background: url(../img/widgets/worldmap.png) no-repeat center center;
+    background-size: contain;
+    content: " ";
+}
+
+.footer-address p {
+    margin: 0;
+    padding: 8px 2px;
+    color: #fff;
+}
+
+.social-list {
+    width: 100%;
+}
+
+.social-list li {
+    width: 100%;
+    text-align: center;
+    padding: 13px 4px;
+}
+
+.social-list li i {
+    font-size: 180%;
+}

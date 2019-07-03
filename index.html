@@ -11,6 +11,7 @@
 
         <!-- Web Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
 
         <!-- Vendor Styles -->
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -25,6 +26,7 @@
         <link href="css/customizations.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/global/global.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <!-- End Head -->
@@ -78,7 +80,7 @@
                         </div>
                         <div class="s-header__navbar-row-col">
                             <!-- Trigger -->
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger" id="s-header__trigger">
+                            <a href="javascript:void(0);" class="s-header__trigger js__trigger g-display-none--xs" id="s-header__trigger">
                                 <span class="s-header__trigger-icon"></span>
                                 <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
                                     <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
@@ -199,18 +201,22 @@
         <div id="js__scroll-to-section" class="g-promo-section" id="about">
             <div class="container g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="row">
-                    <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
+                    <div class="col-md-9 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
                         <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Space Innovation</p>
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="wow fadeInLeft g-display-inline-block--xs" data-wow-duration=".3" data-wow-delay=".1s">
                             <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">About</h2>
                         </div>
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                        <div class="wow fadeInLeft g-display-inline-block--xs g-padding-x-20--xs" data-wow-duration=".3" data-wow-delay=".3s">
                             <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Spin</h2>
                         </div>
                     </div>
-                    <div class="col-md-4 col-md-offset-1">
-                        <p class="g-font-size-18--xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                        <p class="g-font-size-18--xs">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                    <div class="col-md-9">
+                        <p class="g-font-size-18--xs">
+                            SPIN - Space Innovation is a nonprofit organisation with a strong focus on the development and knowledge-sharing of space technologies, consisting mainly of university students. We believe that scientific knowledge about space should be readily accessible to young people!
+                        </p>
+                        <p class="g-font-size-18--xs">
+                            SPIN's vision is to enable students and researchers to engage in space technologies involving them in the process of planning and implementing of innovative programs in order to reinforce the Greek Space Ecosystem. Our goal is to strengthen the culture of space exploration in the country, creating a space technologies development core.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -224,37 +230,42 @@
         <div class="js__parallax-window" style="background: linear-gradient(rgba(32, 173, 203, 0.5),rgba(32, 173, 203, 0.5)), url(img/1920x1080/05.jpg) 50% 0 no-repeat fixed;">
             <div class="container g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="row">
+                    <div class="col-md-12 col-xs-12 g-margin-b-70--xs g-full-width--xs g-text-center--xs">
+                        <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
+                            <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white-opacity">Achievements</h2>
+                        </div>
+                    </div>
                     <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--lg">
                         <div class="g-text-center--xs">
                             <div class="g-margin-b-10--xs">
-                                <figure class="g-display-inline-block--xs g-font-size-70--xs g-color--white js__counter">60</figure>
+                                <figure class="g-display-inline-block--xs g-font-size-70--xs g-color--white js__counter">32</figure>
                             </div>
                             <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                            <h4 class="g-font-size-18--xs g-color--white">Schools</h4>
+                            <h4 class="g-font-size-18--xs g-color--white">CanSats Built</h4>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--lg">
-                        <div class="g-text-center--xs">
-                            <figure class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">5</figure>
-                            <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                            <h4 class="g-font-size-18--xs g-color--white">Rockets Launched</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--sm">
-                        <div class="g-text-center--xs">
-                            <figure class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">95</figure>
-                            <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                            <h4 class="g-font-size-18--xs g-color--white">Volunteers</h4>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-6 g-full-width--xs">
                         <div class="g-text-center--xs">
                             <div class="g-margin-b-10--xs">
                                 <figure class="g-display-inline-block--xs g-font-size-70--xs g-color--white js__counter">100</figure>
                                 <span class="g-font-size-40--xs g-color--white">+</span>
                             </div>
                             <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                            <h4 class="g-font-size-18--xs g-color--white">Supporters</h4>
+                            <h4 class="g-font-size-18--xs g-color--white">Volunteer Base</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--sm">
+                        <div class="g-text-center--xs">
+                            <figure class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">628</figure>
+                            <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
+                            <h4 class="g-font-size-18--xs g-color--white">STEM Workshop Trainees</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 g-full-width--xs">
+                        <div class="g-text-center--xs">
+                            <figure class="g-display-inline-block--xs g-font-size-70--xs g-margin-b-10--xs g-color--white js__counter">87</figure>
+                            <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
+                            <h4 class="g-font-size-18--xs g-color--white">Partners</h4>
                         </div>
                     </div>
                 </div>
@@ -266,18 +277,18 @@
         <div class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-100--xs">
                 <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome to Spin</p>
-                <h2 class="g-font-size-32--xs g-font-size-36--md">An Organization Driven from Values</h2>
+                <h2 class="g-font-size-32--xs g-font-size-36--md">An Organization Driven by Values</h2>
             </div>
             <div class="row g-margin-b-60--xs g-margin-b-70--md">
                 <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
-                                <i class="g-font-size-28--xs g-color--primary ti-signal"></i>
+                                <i class="g-font-size-28--xs g-color--primary fas fa-landmark"></i>
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Value </h3>
+                            <h3 class="g-font-size-18--xs">Education</h3>
                             <p class="g-margin-b-0--xs">Some text goes here, hahah blabla lore ipsum imsamplem.</p>
                         </div>
                     </div>
@@ -286,11 +297,11 @@
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".3s">
-                                <i class="g-font-size-28--xs g-color--primary ti-star"></i>
+                                <i class="g-font-size-28--xs g-color--primary fas fa-lightbulb"></i>
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Value </h3>
+                            <h3 class="g-font-size-18--xs">Creativity</h3>
                             <p class="g-margin-b-0--xs">Some text goes here, hahah blabla lore ipsum imsamplem.</p>
                         </div>
                     </div>
@@ -299,11 +310,11 @@
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".3s">
-                                <i class="g-font-size-28--xs g-color--primary ti-rocket"></i>
+                                <i class="g-font-size-28--xs g-color--primary fas fa-flask"></i>
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Value </h3>
+                            <h3 class="g-font-size-18--xs">Innovation</h3>
                             <p class="g-margin-b-0--xs">Some text goes here, hahah blabla lore ipsum imsamplem.</p>
                         </div>
                     </div>
@@ -315,11 +326,11 @@
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".4s">
-                                <i class="g-font-size-28--xs g-color--primary ti-package"></i>
+                                <i class="g-font-size-28--xs g-color--primary fas fa-hands-helping"></i>
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Value</h3>
+                            <h3 class="g-font-size-18--xs">Volunteering</h3>
                             <p class="g-margin-b-0--xs">Some text goes here, hahah blabla lore ipsum imsamplem.</p>
                         </div>
                     </div>
@@ -328,11 +339,11 @@
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".5s">
-                                <i class="g-font-size-28--xs g-color--primary ti-world"></i>
+                                <i class="g-font-size-28--xs g-color--primary fas fa-comments"></i>
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Value</h3>
+                            <h3 class="g-font-size-18--xs">Open Mentality</h3>
                             <p class="g-margin-b-0--xs">Some text goes here, hahah blabla lore ipsum imsamplem.</p>
                         </div>
                     </div>
@@ -341,11 +352,11 @@
                     <div class="clearfix">
                         <div class="g-media g-width-30--xs">
                             <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".6s">
-                                <i class="g-font-size-28--xs g-color--primary ti-vector"></i>
+                                <i class="g-font-size-28--xs g-color--primary fas fa-box-open"></i>
                             </div>
                         </div>
                         <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Value</h3>
+                            <h3 class="g-font-size-18--xs">Entrepreneurship</h3>
                             <p class="g-margin-b-0--xs">Some text goes here, hahah blabla lore ipsum imsamplem.</p>
                         </div>
                     </div>
@@ -406,12 +417,14 @@
                         <div class="center-block g-text-center--xs">
                             <div class="g-margin-b-30--xs">
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">
-                                    <i class="g-font-size-28--xs g-color--primary ti-rocket"></i>
+                                    <i class="g-font-size-28--xs g-color--primary fas fa-satellite"></i>
                                 </span>
                             </div>
                             <div class="g-padding-x-20--xs">
                                 <h3 class="g-font-size-18--xs g-color--white">CanSat in Greece</h3>
-                                <p class="g-color--white-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.<donate>
+                                <p class="g-color--white-opacity project-desc">
+                                        CanSat in Greece is a greek space competition held in collaboration with the European Space Agency (ESA). Participants are tasked to design and build an educational can-sized satellite for the purpose of carrying out a space mission that they themselves have envisioned.
+                                </p>
                             </div>
                             <div class="g-text-center--xs">
                                 <a href="#" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-40--xs">Learn more</a>
@@ -425,12 +438,14 @@
                         <div class="center-block g-text-center--xs">
                             <div class="g-margin-b-30--xs">
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">
-                                    <i class="g-font-size-28--xs g-color--primary ti-rocket"></i>
+                                    <i class="g-font-size-28--xs g-color--primary fas fa-rocket"></i>
                                 </span>
                             </div>
                             <div class="g-padding-x-20--xs">
-                                <h3 class="g-font-size-18--xs g-color--white">Zero Robotics</h3>
-                                <p class="g-color--white-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                <h3 class="g-font-size-18--xs g-color--white">Project Rocketry</h3>
+                                <p class="g-color--white-opacity project-desc">
+                                        SPIN’s Rocketry Team is engaged in research and development of smallsat launcher systems. SPIN was the first organization to successfully launch fully student researched and developed high power rockets in Greece carrying CanSats to an altitude of 1km.
+                                </p>
                             </div>
                             <div class="g-text-center--xs">
                                 <a href="#" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-40--xs">Learn more</a>
@@ -444,12 +459,14 @@
                         <div class="center-block g-text-center--xs">
                             <div class="g-margin-b-30--xs">
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">
-                                    <i class="g-font-size-28--xs g-color--primary ti-rocket"></i>
+                                    <i class="g-font-size-28--xs g-color--primary fas fa-chalkboard-teacher"></i>
                                 </span>
                             </div>
                             <div class="g-padding-x-20--xs">
-                                <h3 class="g-font-size-18--xs g-color--white">Arduino</h3>
-                                <p class="g-color--white-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                <h3 class="g-font-size-18--xs g-color--white">STEM Workshops</h3>
+                                <p class="g-color--white-opacity project-desc">
+                                    SPIN has many years of experience in organizing STEM Workshops designed for high school & university students as well as high school teachers incorporating Arduino technologies. So far, 40 STEM seminars have been organized across Greece with more than 600 participants.
+                                </p>
                             </div>
                             <div class="g-text-center--xs">
                                 <a href="#" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-40--xs">Learn more</a>
@@ -463,15 +480,17 @@
                         <div class="center-block g-text-center--xs">
                             <div class="g-margin-b-30--xs">
                                 <span class="g-display-inline-block--xs g-width-100--xs g-height-100--xs g-font-size-38--xs g-color--primary g-bg-color--white g-box-shadow__dark-lightest-v4 g-padding-x-20--xs g-padding-y-20--xs g-radius--circle">
-                                    <i class="g-font-size-28--xs g-color--primary ti-rocket"></i>
+                                    <i class="g-font-size-28--xs g-color--primary fas fa-user-astronaut"></i>
                                 </span>
                             </div>
                             <div class="g-padding-x-20--xs">
-                                <h3 class="g-font-size-18--xs g-color--white">Rocketry</h3>
-                                <p class="g-color--white-opacity">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                <h3 class="g-font-size-18--xs g-color--white">Space Talks</h3>
+                                <p class="g-color--white-opacity project-desc">
+                                        Throughout the year SPIN organizes Space Talks that focus on knowledge sharing between participants, academics & industry leaders in the space sector. During these events participants can get informed, meet like minded individuals and get inspired to follow a career in the space sector.
+                                </p>
                             </div>
                             <div class="g-text-center--xs" id="sponsors">
-                                <a href="#" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-40--xs">Learn more</a>
+                                <a href="#about" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-40--xs">Learn more</a>
                             </div>
                         </div>
                     </li>
@@ -486,7 +505,7 @@
         <div class="js__parallax-window" style="background: linear-gradient(rgba(32, 173, 203, 0.5),rgba(32, 173, 203, 0.5)), url(img/1920x1080/04.jpg) 50% 0 no-repeat fixed;">
             <div class="g-container--sm g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                         <div class="g-margin-b-80--xs">
                             <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Subscribe</p>
                             <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">Join Over 1000+ Volunteers</h2>
@@ -498,7 +517,7 @@
                             </span>
                         </form>
                     </div>
-                    <div class="col-sm-6 ">
+                    <div class="col-sm-6 g-display-none--xs">
                         <div class="g-margin-b-80--xs">
                             <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Donate</p>
                             <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">Help us empower our Mission</h2>
@@ -571,11 +590,20 @@
         </div>
         <!-- End Feedback Form -->
 
-        <!-- Google Map -->
-        <section class="s-google-map">
-            <div id="js__google-container" class="s-google-container g-height-400--xs"></div>
-        </section>
-        <!-- End Google Map -->
+        <!-- Last Paralax -->
+        <div class="js__parallax-window" style="background: linear-gradient(rgba(32, 173, 203, 0.5),rgba(32, 173, 203, 0.5)), url(img/1920x1080/01.jpg) 50% 0 no-repeat fixed;">
+            <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="g-text-center--xs">
+                            <img src="img/logospin.png" class="paralax-logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Last Paralax -->
+
         <!--========== END PAGE CONTENT ==========-->
 
         <!--========== FOOTER ==========-->
@@ -584,32 +612,60 @@
             <div class="g-hor-divider__dashed--white-opacity-lightest">
                 <div class="container g-padding-y-80--xs">
                     <div class="row">
-                        <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
+                        <div class="col-md-4 col-sm-5 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
+                            <h3 class="g-font-size-18--xs g-color--white">Spin | Space Innovation</h3>
+                            <p class="g-color--white-opacity">We are an awesome team that builds rockets, program robots and organize cool events. Lol. </p>
+                            <div class="footer-address g-color--white-opacity">
+                                <p>
+                                    Address: 15 Victoros Ougko St.<br>
+                                    Metaxourgio – P.C. 10437
+                                </p>
+                                <p>+30 211XXXXXXX</p>
+                                <p>info@space-innovation.org</p>
+                                <p>Work hours: 09:00 - 16:00</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-md-offset-2 col-sm-offset-1 g-margin-b-20--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Home</a></li>
                                 <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">About</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Projects</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Sponsors</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Contact</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">CanSat in Greece</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Rocketry</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">STEM Workshops</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Newsletter</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Blog</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
                             <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Linked In</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Facebook</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Instagram</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Contact us</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Partners</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Terms & Conditions</a></li>
+                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Privacy Policy</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
-                            <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Subscribe to Our Newsletter</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Privacy Policy</a></li>
-                                <li><a class="g-font-size-15--xs g-color--white-opacity" href="#">Terms &amp; Conditions</a></li>
+                            <ul class="list-unstyled social-list">
+                                <li>
+                                    <a class="g-font-size-15--xs g-color--white-opacity" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="g-font-size-15--xs g-color--white-opacity" href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="g-font-size-15--xs g-color--white-opacity" href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="g-font-size-15--xs g-color--white-opacity" href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
                             </ul>
-                        </div>
-                        <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
-                            <h3 class="g-font-size-18--xs g-color--white">Spin | Space Innovation</h3>
-                            <p class="g-color--white-opacity">We are an awesome team that builds rockets, program robots and organize cool events. Lol. </p>
                         </div>
                     </div>
                 </div>
